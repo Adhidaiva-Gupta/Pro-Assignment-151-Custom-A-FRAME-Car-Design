@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PRO-VR C151</title>
+        <script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+        <script src="base.js"></script>
+        <script src="car.js"></script>
+    </head>
+    <body>
+        <!-----------Plane Base----------->
+        <a-entity id="base" base></a-entity>
+
+        <!--------------Car Model----------------->
+        <a-entity id="car-model" car-model></a-entity> 
+
+        <!--CAMERA-->
+        <a-entity
+        camera
+        look-controls
+        wasd-controls
+        position="0 50 250"
+        ></a-entity>
+
+    </body>
+</html>
